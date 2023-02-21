@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(175deg, black, rgb(5, 111, 138))
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 25px;
+    background-image:  linear-gradient(5deg, black, rgb(5, 111, 138));
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px;
+    width: 250px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+section h2{
+    text-align: center;
+    font-size: 40px;
+}
+section .icones{
+ gap: 10px;
+ display: flex;
+ justify-content: space-around;
+}
+section .icones .icone1 :hover{
+    transform: scale(1.5);
+}
+section .icones .icone2 :hover{
+    transform: scale(1.5);
+}
+section .icones .icone3 :hover{
+    transform: scale(1.5);
+}
+section .container label{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px ;
+}
+section .container-field{
+   
+    margin: 8px;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+section .container-field input{
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    font-size: 14px;    
+}
+section .container-field input:focus{
+    outline: none;
+}
+section .container .esqueceu {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+section .container .esqueceu:hover{
+    color: rgb(25, 92, 136);
+}
+button{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: transparent;
+    background: rgb(5, 111, 138);
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.04);
+}
